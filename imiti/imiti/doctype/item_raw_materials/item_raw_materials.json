@@ -1,0 +1,104 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-03-18 12:22:06.383520",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "raw_material_code",
+  "unit_of_measure",
+  "required_unit_lenght",
+  "density",
+  "dia",
+  "thickness",
+  "width",
+  "column_break_srdlh",
+  "raw_material_name",
+  "unit_price",
+  "weight_in_kg",
+  "weight_formula",
+  "total"
+ ],
+ "fields": [
+  {
+   "fieldname": "raw_material_code",
+   "fieldtype": "Link",
+   "label": "raw_material_code",
+   "options": "Item"
+  },
+  {
+   "fieldname": "unit_of_measure",
+   "fieldtype": "Link",
+   "label": "unit_of_measure",
+   "options": "UOM"
+  },
+  {
+   "fieldname": "required_unit_lenght",
+   "fieldtype": "Data",
+   "label": "required_unit_lenght"
+  },
+  {
+   "fieldname": "density",
+   "fieldtype": "Data",
+   "label": "density"
+  },
+  {
+   "fieldname": "dia",
+   "fieldtype": "Data",
+   "label": "dia"
+  },
+  {
+   "fieldname": "thickness",
+   "fieldtype": "Data",
+   "label": "thickness"
+  },
+  {
+   "fieldname": "width",
+   "fieldtype": "Data",
+   "label": "width"
+  },
+  {
+   "fieldname": "column_break_srdlh",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "raw_material_name",
+   "fieldtype": "Data",
+   "label": "raw_material_name"
+  },
+  {
+   "fieldname": "unit_price",
+   "fieldtype": "Currency",
+   "label": "unit_price"
+  },
+  {
+   "fieldname": "weight_in_kg",
+   "fieldtype": "Data",
+   "label": "weight_in_kg"
+  },
+  {
+   "fetch_from": "raw_material_code.custom_weight_formula",
+   "fieldname": "weight_formula",
+   "fieldtype": "Data",
+   "label": "weight_formula"
+  },
+  {
+   "fieldname": "total",
+   "fieldtype": "Currency",
+   "label": "total"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2024-03-18 12:24:47.202663",
+ "modified_by": "Administrator",
+ "module": "Imiti",
+ "name": "Item Raw Materials",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

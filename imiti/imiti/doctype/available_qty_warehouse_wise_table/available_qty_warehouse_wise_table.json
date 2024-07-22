@@ -1,0 +1,79 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-03-21 22:22:31.297528",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "item_code",
+  "warehouse_1",
+  "warehouse_2",
+  "warehouse_3",
+  "warehouse_4",
+  "warehouse_5"
+ ],
+ "fields": [
+  {
+   "columns": 2,
+   "fieldname": "warehouse_1",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "Warehouse 1",
+   "read_only": 1
+  },
+  {
+   "columns": 2,
+   "fieldname": "warehouse_2",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "Warehouse 2",
+   "read_only": 1
+  },
+  {
+   "columns": 2,
+   "fieldname": "warehouse_3",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "Warehouse 3",
+   "read_only": 1
+  },
+  {
+   "columns": 2,
+   "fieldname": "warehouse_4",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "Warehouse 4",
+   "read_only": 1
+  },
+  {
+   "columns": 1,
+   "fieldname": "warehouse_5",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "Warehouse 5",
+   "read_only": 1
+  },
+  {
+   "columns": 1,
+   "fieldname": "item_code",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Item Code",
+   "options": "Item",
+   "read_only": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2024-03-21 22:59:01.372119",
+ "modified_by": "Administrator",
+ "module": "Imiti",
+ "name": "Available Qty Warehouse Wise Table",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

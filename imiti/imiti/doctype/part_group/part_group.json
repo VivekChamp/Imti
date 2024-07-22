@@ -1,0 +1,59 @@
+{
+ "actions": [],
+ "autoname": "autoincrement",
+ "creation": "2024-03-21 11:08:09.436696",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "customer_name",
+  "part_group_name",
+  "item"
+ ],
+ "fields": [
+  {
+   "fieldname": "customer_name",
+   "fieldtype": "Link",
+   "label": "customer_name",
+   "options": "Customer"
+  },
+  {
+   "fieldname": "part_group_name",
+   "fieldtype": "Data",
+   "label": "part_group_name"
+  },
+  {
+   "fieldname": "item",
+   "fieldtype": "Link",
+   "label": "item",
+   "options": "Item"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-03-21 11:14:26.174308",
+ "modified_by": "Administrator",
+ "module": "Imiti",
+ "name": "Part Group",
+ "naming_rule": "Autoincrement",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "search_fields": "part_group_name,customer_name",
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
